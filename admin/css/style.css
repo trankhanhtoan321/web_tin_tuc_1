@@ -1,0 +1,129 @@
+input[type="submit"]{
+	margin:2px 2px 2px 2px;
+	padding:10px 10px 10px 10px;
+	color:#fff;
+	background:#8AC007;
+}
+input[type="submit"]:hover{
+	margin:2px 2px 2px 2px;
+	padding:10px 10px 10px 10px;
+	color:#fff;
+	background:#709C05;
+}
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="number"]{
+	margin:2px 2px 2px 2px;
+	width:300px;
+	font-size:15px;
+	background:#FFFFD3;
+	padding:5px 5px 5px 5px;
+}
+*{
+	text-decoration:none;
+	margin:0;
+	padding:0;
+}
+.list-menu {
+	margin:1px 0px 0px -3px;
+	background:#5C5C5C;
+	padding:10px 10px 10px 26px;
+	color:#fff;
+	background-image:url(images/accept.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+}
+.list-menu:hover{
+	margin:1px 0px 0px -3px;
+	background:#000;
+	padding:10px 10px 10px 26px;
+	color:#fff;
+	background-image:url(images/accept.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+}
+.header{
+	font-size:20px;
+	padding:10px 10px 10px 20px;
+	margin:5px 0px 5px 0px;
+	color:#fff;
+	background:#1F568B;
+	border-radius:12px;
+}
+textarea{
+	width:90%;
+	height:100px;
+	background:#FFFFD3;
+}
+.list-baiviet table{
+	width:95%;
+	border:1px solid black;
+}
+.list-baiviet tr{
+	border:1px solid black;
+}
+.list-baiviet td{
+	border:1px solid black;
+}
+.list-baiviet th{
+	border:1px solid black;
+	background:#008800;
+	color:#fff;
+}
+.nut_bam{
+	width:150px;
+	padding:10px;
+	background:#8AC007;
+	color:#fff;
+	margin:10px;
+	border-radius:15px;
+	text-align:center;
+}
+.nut_bam:hover{
+	background:#709C05;
+}
+#menu ul {
+	background: #0082bb;
+	width: 170px;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+	position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+	top: 50px; /*Nằm trên cùng*/
+	left: 0; /*Nằm sát bên trái*/
+	z-index: 100000; /*Hiển thị lớp trên cùng*/
+}
+#menu li {
+ width: auto;
+ height: 40px;
+ line-height: 40px;
+ border-bottom: 1px solid #e8e8e8;
+ padding: 0 1em;
+}
+#menu li a {
+ text-decoration: none;
+ color: #fff;
+ display: block;
+}
+#menu li:hover {
+ background: #000;
+}
+#menu ul li {
+ position: relative;
+}
+#menu .sub-menu {
+ position: absolute;
+ left: 170px;
+ top: 0;
+ background:#1FC646;
+}
+#menu .sub-menu {
+ position: absolute;
+ left: 170px;
+ top: 0;
+ display: none;
+}
+#menu li:hover .sub-menu {
+ display: block;
+}
